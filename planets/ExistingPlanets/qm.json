@@ -1,0 +1,67 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "QuantumMoon",
+
+
+
+	"Props": {
+		"details": [
+			{
+				"rename":"Sol_Stone Exp",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_Explain/WordStone_Explain_Pivot/",
+				"position": {"x": 0,"y": -0.075,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_Explain",
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			},
+			{
+				"rename":"Sol_Stones Id",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_Identify/WordStone_Identify_Pivot",
+				"position": {"x": 0,"y": -0.075,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_Identify",
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			},
+
+			{
+				"rename":"Sol_Stones Eye",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_Eye/WordStone_Eye_Pivot/",
+				"position": {"x": 0,"y": -0.082,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_Eye",
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			},
+			{
+				"rename":"Sol_Stones Me",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_Me/WordStone_Me_Pivot/",
+				"position": {"x": 0,"y": -0.075,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_Me",
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			},
+			{
+				"rename":"Sol_Stones You",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_You/WordStone_You_Pivot/",
+				"position": {"x": 0,"y": -0.075,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_You",
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			},
+			{
+				"rename":"Sol_Stones QM",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_QuantumMoon/WordStone_QuantumMoon_Pivot/",
+				"position": {"x": 0,"y": -0.075,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Structure_QM_SolanumRocks/WordStone_QuantumMoon",
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			}
+		]
+	}
+}
