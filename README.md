@@ -7,3 +7,5 @@ There are sockets for every type of item in the game. Try figuring out what item
 
 Feel free to share your personal best hoards in one loop below.
 Make sure to turn off any time-pausing mods/tricks to make it a fair challenge!
+
+![Screenshot 2024-07-27 161551](https://github.com/user-attachments/assets/8deab44f-3e66-4710-8825-abdc37c9ff14)
