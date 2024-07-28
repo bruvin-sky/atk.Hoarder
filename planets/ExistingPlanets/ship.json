@@ -195,7 +195,8 @@
 				"position": {"x": -1.3548, "y": 0.4413, "z": 2.9424},
 				"rotation": {"x": 2.6192, "y": 80.6549 , "z": 0.7608},
 				"scale":0.8,
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"removeChildren": ["PressurePlateRoot/Symbol_Artifact"]
 			},
 			{
 				"rename":"bottom log awc",
