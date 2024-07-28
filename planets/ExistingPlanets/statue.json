@@ -1,0 +1,161 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "StatueIsland",
+
+	
+	"Props": {
+		"details": [
+		
+			{
+				"rename":"Sculpting Boulders",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Props_StatueIslandInterior/BatchedGroup/BatchedMeshRenderers_0",
+				"position":{"x":25.0694,"y": -27.0139,"z": 11.2264},
+				"rotation":{"x":1.5978,"y": 162.8106,"z": 108.0298},
+				"isRelativeToParent": true
+			},
+	
+			{
+				"rename": "scrollboulder torch",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Lighting_StatueIslandInterior/OtherComponentsGroup/Prefab_NOM_WallTorch/",
+				"position": {"x": 30.1046, "y": 0.0116, "z": 9.0695},
+				"rotation": {"x": 8.2359, "y": 134.2555, "z": 180.9567},
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
+				"removeChildren": ["WallTorch_Connector"],
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "scroll boulder collider",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"position": {"x": 30.1455, "y": 2.3452 , "z": 8.876},
+				"rotation": {"x": 31.5902, "y": 346.7838, "z": 228.6781},
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
+				"isRelativeToParent": true,
+				"scale":4
+			},
+		
+
+			{
+				"rename": "projectionstone boulder collider",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"position": {"x": 29.9635, "y": 0.6986, "z": 18.5868},
+				"rotation": {"x": 49.738, "y": 163.404, "z": 95.9996},
+				"isRelativeToParent": true,
+				"scale":4,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "projstone boulder torch",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Lighting_StatueIslandInterior/OtherComponentsGroup/Prefab_NOM_WallTorch/",
+				"position": {"x": 29.4004, "y": -0.4596, "z": 17.0039},
+				"rotation": {"x": 28.4369, "y": 100.5726, "z": 10.913},
+				"removeChildren": ["WallTorch_Connector"],
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "projectstone in sculpting",
+				"assetBundle": "planets/assets/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": 29.842, "y": -0.1379, "z": 17.5406},
+				"rotation": {"x": 30.9597, "y": 347.0966, "z": 213.0103},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
+				"item": {
+					"itemType": "SharedStone",
+					"name":"Sculpted Stone",
+					"droppable": true,
+					"colliderRadius": 1
+				}
+			},
+			{
+				"rename": "projectstone in sculpting 2",
+				"assetBundle": "planets/assets/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": 30.8659, "y": 0.0538, "z": 17.0828},
+				"rotation": {"x": 339.9922, "y": 256.2971, "z": 134.3938},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
+				"item": {
+					"itemType": "SharedStone",
+					"name":"Sculpted Stone",
+					"droppable": true,
+					"colliderRadius": 1
+				}
+			},
+			{
+				"rename": "projectstone in sculpting 3",
+				"assetBundle": "planets/assets/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": 29.2604, "y": -1.0992, "z": 18.2973},
+				"rotation": {"x": 47.4341, "y": 311.2338, "z": 215.0378},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
+				"item": {
+					"itemType": "SharedStone",
+					"name":"Sculpted Stone",
+					"droppable": true,
+					"colliderRadius": 1
+				}
+			},
+			{
+				"rename": "projectstone in sculpting 4",
+				"assetBundle": "planets/assets/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": 29.1393, "y": -1.1521, "z": 18.3064},
+				"rotation": {"x": 36.6944, "y": 328.0229, "z": 229.2751},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
+				"item": {
+					"itemType": "SharedStone",
+					"name":"Sculpted Stone",
+					"droppable": true,
+					"colliderRadius": 1
+				}
+			}
+		
+		],
+		"translatorText": [
+			{
+				"rename":"Statworkshop sculpt recorder",
+				"position": {"x": 38.4711,"y": 0.742,"z": -2.1092},
+				"rotation": {"x": 5.0914,"y": 184.2477,"z": 349.7901},
+				"type": "recorder",
+				"isRelativeToParent": true,
+				"xmlFile": "planets/assets/phlox statue conversation.xml"
+			},
+
+			{
+				"rename": "scroll in sculpting",
+				"position": {"x": 30.5055, "y": 0.4244, "z": 10.0762},
+				"rotation": {"x": 9.68564, "y": 5.2864, "z": 240.7498},
+				"type": "scroll",
+				"seed": 2,
+				"isRelativeToParent": true,
+				"xmlFile": "planets/assets/scrollshop intro.xml",
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "scroll in sculpting 2",
+				"position": {"x": 29.719, "y": -0.1791, "z": 9.5741},
+				"rotation": {"x": 73.3606, "y": 97.5452, "z": 325.5218},
+				"type": "scroll",
+				"seed": 2,
+				"isRelativeToParent": true,
+				"xmlFile": "planets/assets/scrollshop intro.xml",
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "scroll in sculpting 3",
+				"position": {"x": 29.9077, "y": -1.1452, "z": 8.2105},
+				"rotation": {"x": 45.3873, "y": 127.2293, "z": 292.1215},
+				"type": "scroll",
+				"seed": 2,
+				"isRelativeToParent": true,
+				"xmlFile": "planets/assets/scrollshop intro.xml",
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			}
+		]
+	
+	}
+}

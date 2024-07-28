@@ -343,13 +343,29 @@
 
 			{
 				"rename": "ship slidereel shelf",
-				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_DreamFireLighthouse_Zone2_AnimRoot/Interactibles_DreamFireLighthouse_Zone2/Pivot_SlideReelRoom/Pivot_Bookshelf/Prefab_IP_SlideReelShelf/",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_1/Prefab_IP_SlideReelShelf (31)/",
 				"parentPath": "Module_Cabin",
 				"position": {"x": 1.3831, "y": 0.5977, "z": -2.8689},
 				"rotation": {"x": 359.9651, "y": 267.2676, "z": 359.2696},
 				"stretch": {"x":0.7,"y": 0.8,"z": 0.8},
-				"removeChildren": ["SlideReelShelf_Row_01"],
+				"removeChildren": ["SlideReelShelf_Row_01","SlideReelShelf_Row_03","SlideReelShelf_Row_04"],
 				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "Replacement shelf 3",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_1/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_02",
+				"parentPath": "Module_Cabin/ship slidereel shelf",
+				"position": {"x": -0.2, "y": 2.9601, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "Replacement shelf 4",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_1/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_02",
+				"parentPath": "Module_Cabin/ship slidereel shelf",
+				"position": {"x": -0.2, "y": 1.76, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 0},
 				"isRelativeToParent": true
 			},
 			{
